@@ -41,14 +41,83 @@ $(document).ready(function() {
 
 That's it! Enjoy.
 Reference
-Option 	Type 	Default 	Description
-mode 	string 	'class' 	Selection mode. 'Class' would search for elements with alphabetical classes (a, b, c...) inside the parent element ('body' in this case), while 'children' would select all his children.
-fadeSpeed 	integer 	500 	The speed of the fade effect.
-easeLoad 	string 	'linear' 	Defines easing. Using advanced effects requires 'JQuery Easing' plugin. Options: please visit http://api.jqueryui.com/easings/
-displayType 	string 	'block' 	Defines which display style for the affected elements. Options: 'block', 'inline-block', 'inline', 'table', 'inline-table', 'list-item', 'inherit', etc.
-preLoader 	boolean 	true 	When 'true', a preloader image will be displayed until the window is completely loaded. Options: 'true' or 'false'.
-preloadImg 	string 	'loading.gif' 	Path to the image used as preloader. Defaul 'loading.gif' is provided along with this plugin.
-preloadWidth 	integer 	50 	Width in pixels of the preloader image.
-preloadHeight 	integer 	50 	Height in pixels of the preloader image.
-preloadCustom 	'string' (HTML only) 	'' 	Paste here your HTML to use your own preloader. Remember to set 'preloader' as the class name for the main element.
-onComplete 	'string' 	'' 	Callback function, executed after all ellements have been loaded.
+<table>
+
+ <tr>
+    <th>Option</th>
+    <th>Type</th>
+    <th>Default</th>
+    <th>Description</th>
+ </tr>
+  
+ <tr>
+    <td>mode</td>
+    <td>string</td>
+    <td>'class'</td>
+    <td>Selection mode. 'Class' would search for elements with alphabetical classes (a, b, c...) inside the parent element ('body' in this case), while 'children' would select all his children.</td>
+ </tr>
+ 
+ <tr>
+    <td>fadeSpeed</td>
+    <td>integer</td>
+    <td>500</td>
+    <td>The speed of the fade effect.</td>
+ </tr>
+
+  <tr>
+    <td>easeLoad</td>
+    <td>string</td>
+    <td>'linear'</td>
+    <td>Defines easing. Using advanced effects requires 'JQuery Easing' plugin. Options: please visit http://api.jqueryui.com/easings/</td>
+ </tr>
+
+ <tr>
+    <td>displayType</td>
+    <td>string</td>
+    <td>'block'</td>
+    <td>Defines which display style for the affected elements. Options: 'block', 'inline-block', 'inline', 'table', 'inline-table', 'list-item', 'inherit', etc. </td>
+ </tr>
+  
+ <tr>
+    <td>preLoader</td>
+    <td>boolean</td>
+    <td>true</td>
+    <td>When 'true', a preloader image will be displayed until the window is completely loaded. Options: 'true' or 'false'.</td>
+ </tr>
+
+ <tr>
+    <td>preloadImg</td>
+    <td>string</td>
+    <td>'loading.gif'</td>
+    <td>Path to the image used as preloader. Defaul 'loading.gif' is provided along with this plugin.</td>
+ </tr>
+
+  <tr>
+    <td>preloadWidth</td>
+    <td>integer</td>
+    <td>50</td>
+    <td>Width in pixels of the preloader image.</td>
+ </tr>
+
+   <tr>
+    <td>preloadHeight</td>
+    <td>integer</td>
+    <td>50</td>
+    <td>Height in pixels of the preloader image.</td>
+ </tr>
+ 
+ <tr>
+    <td>preloadCustom</td>
+    <td>'string' (HTML only)</td>
+    <td>''</td>
+    <td>Paste here your HTML to use your own preloader. Remember to set 'preloader' as the class name for the main element.</td>
+ </tr>
+
+ <tr>
+    <td>onComplete</td>
+    <td>'string'</td>
+    <td>''</td>
+    <td>Callback function, executed after all ellements have been loaded.</td>
+ </tr>
+
+</table>
