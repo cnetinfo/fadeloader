@@ -13,7 +13,7 @@ Fist include the required files on your page's HEAD ("easing" is optional):
 Then assign a class name to each of your elements using the alphabet. Let's say...
 
 <body>
-    <CODE>
+    <pre>
     <div class="a"><img class="let" src="http://imageshack.us/a/img577/8746/80670611.jpg"></div>
     <div class="b"><img class="let" src="http://imageshack.us/a/img46/5216/37226104.jpg"></div>
     <div class="c"><img class="let" src="http://imageshack.us/a/img41/5663/51030348.jpg"></div>
@@ -24,7 +24,7 @@ Then assign a class name to each of your elements using the alphabet. Let's say.
     <div class="h"><img class="let" src="http://imageshack.us/a/img41/5663/51030348.jpg"></div>
     <div class="i"><img class="let" src="http://imageshack.us/a/img9/7412/73031581.jpg"></div>
     <div class="j"><img class="let" src="http://imageshack.us/a/img24/6335/45762992.jpg"></div>
-    </CODE>
+    </pre>
 </body>
 
 Now hide them all with CSS:
